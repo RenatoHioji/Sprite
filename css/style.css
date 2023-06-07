@@ -519,35 +519,3 @@ body{
     }
 }
 
-.fundo3{
-    height:58px;
-    width:136px;
-    position: absolute;
-
-    animation: fundopersonagem3 60s infinite;
-}
-
-.personagem3{
-    height:47px;
-    width:50px;
-    transform: scale(2);
-    background:url("../img/Pikachu.png") -0px -0px no-repeat;
-    animation: personagem3 10s steps(16) infinite;
-}  
-
-@keyframes personagem3{
-    0%{
-        background-position-x: 0px;
-    }
-    100%{
-        background-position-x: -676px;
-    }
-
-}
-@keyframes fundopersonagem3{
-    0%{
-        top: 300px;
-        left: 200px;
-    }
-
-}
